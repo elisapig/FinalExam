@@ -31,10 +31,52 @@ public class Main {
 		
 		
 		System.out.println("目前餐點:");
-		System.out.println(i+1+"."+"\t" + line +"\t"+ line1+"份");
+		System.out.println( line +"\t"+ line1+"份");
 		switch(line){
-		case "1":
-			System.out.println("合計"+ );
+		case 1 :
+			for(int i=0;i<meals.size();i++){
+				System.out.println("目前餐點:"+(i+1)+"."+"\t"+meals.get(line)+" "+ );
+				return;
+			}
+			System.out.println("=========");
+		case 2 :
+			for(int i=0;i<meals.size();i++){
+				System.out.println("目前餐點:"+(i+1)+"."+"\t"+meals.get(line)+" "+ );
+				return;
+			}
+			System.out.println("=========");
+		case 3 :
+			for(int i=0;i<meals.size();i++){
+				System.out.println("目前餐點:"+(i+1)+"."+"\t"+meals.get(line)+" "+ );
+				return;
+			}
+			System.out.println("=========");
+		case 4 :
+			for(int i=0;i<meals.size();i++){
+				System.out.println("目前餐點:"+(i+1)+"."+"\t"+meals.get(line)+" "+ );
+				return;
+			}
+			System.out.println("=========");
+		case 5 :
+			for(int i=0;i<meals.size();i++){
+				System.out.println("目前餐點:"+(i+1)+"."+"\t"+meals.get(line)+" "+ );
+				return;
+			}
+			System.out.println("=========");
+		case 6 :
+			for(int i=0;i<meals.size();i++){
+				System.out.println("目前餐點:"+(i+1)+"."+"\t"+meals.get(line)+" "+ );
+				return;
+			}
+			System.out.println("=========");
+		case 7 :
+			for(int i=0;i<meals.size();i++){
+				System.out.println("目前餐點:"+(i+1)+"."+"\t"+meals.get(line)+" "+ );
+				return;
+			}
+			System.out.println("=========");
+		case 8 :
+		
 			
 		}
 		}}

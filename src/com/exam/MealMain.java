@@ -19,12 +19,11 @@ public class MealMain {
 			String line = br.readLine();
 			String[] tokens = line.split(",");
 			int id = Integer.parseInt(tokens[0]);
-			for(int i=0;i<=id;i++){
-				String name = tokens[i * 2 - 1];
-				int price =  Integer.parseInt(tokens[i*2]);
-				int kcal = Integer.parseInt(tokens[i*2+1]);
-				 mm.meals.add(new Meal(i,name,price,kcal));
-			}
+			String name = tokens[1];
+				int price =  Integer.parseInt(tokens[2]);
+				int kcal = Integer.parseInt(tokens[3]);
+				 mm.meals.add(new Meal(id,name,price,kcal));
+				 line =br.readLine();
 			mm.on();
 		}catch(FileNotFoundException e){
 			e.printStackTrace();
